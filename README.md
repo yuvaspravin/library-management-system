@@ -19,7 +19,7 @@ library_manager/
 
 ## Technologies Used
 
-- Python 3.12+
+- Python
 - Object-Oriented Programming (OOP)
 - Python ABC module
 
