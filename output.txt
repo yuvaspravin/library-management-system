@@ -1,0 +1,31 @@
+   
+--- Borrowing Items ---
+Alice borrowed: Book: Python 101 by A. Rao, ID: 1
+Could not borrow: Python 101 is already borrowed.
+
+--- Borrowing Limit Test ---
+Bob borrowed: Magazine: Tech Today, Issue 5, ID: 2
+Could not borrow: Borrowing limit reached. You can borrow up to 1 items.
+
+--- Returning Items ---
+Alice returned: Book: Python 101 by A. Rao, ID: 1
+Late fee: Rs. 6
+
+--- Invalid Return Test ---
+Could not return: Python 101 was not borrowed by Bob.
+
+--- Borrowed Items ---
+Alice's borrowed items: []
+Bob's borrowed items: ['Tech Today']
+
+--- Polymorphism Test ---
+Book: Python 101 by A. Rao, ID: 1 Late fee for 3 days: Rs 6
+Magazine: Tech Today, Issue 5, ID: 2 Late fee for 3 days: Rs 3
+DVD: Python Tutorial (120 minutes), ID: 3 Late fee for 3 days: Rs 15
+
+--- Encapsulation Test ---
+Private attribute access error: 'Book' object has no attribute '__available'
+Book availability: True
+
+--- Class Attribute Test ---
+Total items created: 3
